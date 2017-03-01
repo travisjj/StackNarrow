@@ -18,20 +18,9 @@
  };
  var $ = document.querySelector.bind(document);
  var $$ = document.querySelectorAll.bind(document);
- var listBroken = true;
  var userPage = this.location.href.indexOf('stackoverflow.com/users') > -1;
  var query = userPage? "div" : "body > div";
  observer = new MutationObserver(function(mutations) {
-  if(listBroken)
-  {
-	  var layout = $('.question-list-layout');
-	  var sidebar;
-	  if(layout) sidebar = $("#sidebar");
-	  if(sidebar) {
-		  sidebar.parentNode.insertBefore(layout,sidebar);
-		  listBroken = false;
-	  }
-  }
   if(userPage && false){
 	  $$("div").forEach(function(div){
 		  if(width(div) > 900){
