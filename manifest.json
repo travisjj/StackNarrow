@@ -1,0 +1,14 @@
+{
+  "name": "StackNarrow",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Scripts to modify stackoverflow styling",
+  "content_scripts": [
+    {
+      "matches": ["http://stackoverflow.com/*","http://meta.stackoverflow.com/*","http://*.stackexchange.com/*"],
+      "js": ["sopre.js"],
+      "css": ["so.css"], 
+      "run_at": "document_start"
+    }
+  ]
+}

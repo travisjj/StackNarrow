@@ -1,0 +1,66 @@
+body #sidebar #questions-count.module{
+ display:inherit;
+}
+
+body #content {
+ width: initial;
+ margin: initial;
+}
+	
+html body, html {
+ max-width: 100%;
+ min-width: initial !important;
+}
+
+body .question-list-layout {
+ position: initial;
+ margin: 0 0 0 0;
+}
+
+body .question-list-layout ul {
+ margin-left: 0;
+}
+
+body #mainbar {
+ padding: 15px;
+ width: 75%;
+}
+
+body .askquestion {
+ padding-left: 40px;
+}
+
+body #mainbar .question-hyperlink {
+ font-size: 16px;
+}
+
+body .post-tag {
+ border-style: outset;
+}
+
+body #sidebar {
+ float: left;
+ width: 20%;
+}
+
+body.user-page .card {
+ margin: 0 0 0 0;
+}
+
+body.user-page .col-content {
+ width: 720px;
+}
+
+body .tab-save {
+ right: initial;
+ margin-left: 75px;
+}
+
+body #footer #footer-sites, body #footer .footerwrap {
+ width : 100%;
+ padding : 0 0 0 0;
+}
+
+body.ask-page #sidebar.ask-sidebar {
+ width:20%;
+}
