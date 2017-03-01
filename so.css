@@ -64,3 +64,15 @@ body #footer #footer-sites, body #footer .footerwrap {
 body.ask-page #sidebar.ask-sidebar {
  width:20%;
 }
+
+body.user-page #mainbar.settings-page{
+ width:75% !important;
+}
+
+body.user-page #profile-side {
+ width: 20%;
+}
+
+body header.so-header.js-so-header {
+ min-width: initial;
+}

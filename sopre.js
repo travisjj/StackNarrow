@@ -43,7 +43,7 @@
 	  $$(query).forEach(function(div){
 		  if(width(div) > 900){
 				div.style.width = "100%";
-				if(check && (div.className.indexOf('container') >-1) && ($('.js-so-header._fixed'))){
+				if(check && (div.className.indexOf('container') >-1)){
 					if(!userPage)check = false;
 				}else{
 					div.style.padding = "0px";
